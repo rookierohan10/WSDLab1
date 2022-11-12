@@ -1,0 +1,381 @@
+html,body {
+    margin: 0px;
+    top: 0px;
+}
+
+.spacer {
+    aspect-ratio: 1920/200;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+header ul {
+    padding-left: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+header li {
+    display: inline;
+    padding-left: 0px;
+    font: 16px 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+}
+
+header li .leftbuttons{
+    text-decoration: none;
+    color: black;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 24px;
+    padding-bottom: 22px;
+}
+
+header li .leftbuttons:hover{
+    background-color: #04aa6d;
+    color: white;
+}
+
+header li .rightbuttons{
+    text-decoration: none;
+    border-radius: 25px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+
+
+.buttons1{
+    color: whitesmoke;
+    background-color: #000000;
+}
+
+.buttons1:hover{
+    background-color: rgb(0, 0, 0, 0.7);
+}
+
+.buttons2{
+    color: black;
+    background-color: #ffc0c7;
+}
+
+.buttons2:hover{
+    background-color: rgb(255, 192, 199, 0.7);
+}
+
+.buttons3{
+    color: black;
+    background-color: #fff4a3;
+}
+
+.buttons3:hover{
+    background-color: rgb(255, 244, 163, 0.7);
+}
+
+.buttons4{
+    color: whitesmoke;
+    background-color: #04aa6d;
+}
+
+.buttons4:hover{
+    background-color: rgb(4, 170, 109, 0.7);
+}
+
+
+main .maindiv{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font: 'Source Sans Pro', sans-serif;
+}
+
+main .block1 {
+    background-color: #282a35;
+    color: white;
+    text-align: center;
+}
+
+main .block1 h1{
+    font-size: 70px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+main .block1 h2{
+    margin-top: 22px;
+    margin-bottom: 29px;
+    color: #ffc0c7;
+}
+
+main .block1 input{
+    height: 45px;
+    width: 400px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border: none;
+    outline: 0px;
+}
+
+main .block1 input[type=text] {
+    font: 16px 'Source Sans Pro', sans-serif;
+    padding-left: 30px;
+}
+
+main .block1 input::placeholder {
+    font: 16px monospace;
+}
+
+main .block1 input:active{
+    border: none;
+}
+
+main .block1 button{
+    height: 47px;
+    width: 100px;
+    background-color: #04aa6d;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border: none;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+main .block1 button:hover {
+    background-color: rgb(4, 170, 109, 0.7);
+}
+
+main .maindiv .searchbar {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    height: 47px;
+    padding: 0px;
+}
+
+
+.layer1 {
+    background-image: url('./layer1pic.svg');
+}
+
+ .HTMLdiv{
+    background-color: #d9eee1;
+    margin-top: 0px;
+    height: 360px;
+}
+
+.divleft {
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 50%;
+    align-items: center;
+}
+
+ .HTMLdiv h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 50px;
+}
+
+ .HTMLdiv h3 {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.HTMLbuttons{
+    text-decoration: none;
+    border-radius: 25px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-left: 30%;
+}
+
+.b1 {
+    padding-left: 48px;
+    padding-right: 48px;
+}
+
+.b2 {
+    padding-left: 41.9px;
+    padding-right: 41.9px;
+}
+
+.b3 {
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+
+.HTMLdiv li {
+    display: block;
+    font: 16px 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    margin-top: 30px;
+    padding-top: 10px;
+    align-items: center;
+}
+
+
+
+.layer2 {
+    background-image: url('./wave-haikei2.svg');
+}
+
+.CSSdiv{
+    background-color: #fff4a3;
+    margin-top: 0px;
+    height: 360px;
+}
+
+.CSSdiv h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 50px;
+}
+
+ .CSSdiv h3 {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.CSSdiv li {
+    display: block;
+    font: 16px 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    margin-top: 30px;
+    padding-top: 10px;
+    align-items: center;
+}
+
+.b21 {
+    padding-left: 55px;
+    padding-right: 55px;
+}
+
+.b22 {
+    padding-left: 39px;
+    padding-right: 39px;
+}
+
+.layer3 {
+    background-image: url(./wave-haikei3.svg);
+}
+
+.JSdiv{
+    background-color: #282a35;
+    margin-top: 0px;
+    height: 350px;
+    padding-top: 35px;
+}
+
+.JSdiv h1 {
+    color: #d9eee1;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 50px;
+}
+
+ .JSdiv h3 {
+    color: #d9eee1;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.JSdiv li {
+    display: block;
+    font: 16px 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    margin-top: 30px;
+    padding-top: 10px;
+    align-items: center;
+}
+
+.b31 {
+    padding-left: 38px;
+    padding-right: 38px;
+}
+
+.b32 {
+    /* color: #d36735; */
+    background-color: #d9eee1;
+    padding-left: 16.5px;
+    padding-right: 16.5px;
+}
+
+.layer4 {
+    background-image: url(./wave-haikei5.svg);
+}
+
+.extradiv{
+    background-color: #0066FF;
+    margin-top: 0px;
+    height: 360px;
+}
+
+
+/* Form and Table */
+
+.reg-form {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-container{
+    height: max-content;
+    width: max-content;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.form-container table td {
+    padding: 10px;
+    width: 50%;
+}
+
+.input-field {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-field input {
+    margin-top: 10px;
+    border-radius: 20px;
+    padding: 5px;
+
+}
+
+.input-field label {
+    font-weight: 600;
+}
+
+.input-field select {
+    border-radius: 20px;
+    padding: 10px 24px;
+    margin-top: 10px;
+}
+
+.reg-btn button {
+    border-radius: 20px;
+    padding: 10px 24px;
+}
+
+.reg-btn span a {
+    text-decoration: none;
+    color:rgb(4, 170, 109, 0.7)
+}

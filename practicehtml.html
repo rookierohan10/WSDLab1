@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W3 Schools</title>
+    <link rel="stylesheet" href="practice.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="None" class="leftbuttons">Tutorials</a></li>
+                <li><a href="None" class="leftbuttons" >References</a></li>
+                <li><a href="None" class="leftbuttons" >Exercises</a></li>
+                <li><a href="https://www.w3schools.com/videos/index.php" class="leftbuttons" >Videos</a></li>
+                <li style="float: right;"><a href="https://www.w3schools.com/pro/index.php" class="rightbuttons buttons1">Upgrade</a></li>
+                <li style="float: right;"><a href="None" class="rightbuttons buttons2">Get Certified</a></li>
+                <li style="float: right;"><a href="None" class="rightbuttons buttons3">Free Website</a></li>
+                <li style="float: right;"><a href="#login_form" class="rightbuttons buttons4">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="maindiv block1">
+            <h1>Learn to Code</h1>
+            <h2>With the world's largest developer Website</h2>
+            <form action="https://www.google.com/search">
+                <div class="searchbar">
+                    <input type="text" placeholder="Search for Tutorials" name="q">
+                    <button type="submit">Go</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="spacer layer1"></div>
+
+        <div class="HTMLdiv">
+            <div class="divleft">
+                <h1>HTML</h1>
+                <h3>The language for building web pages</h3>
+                <ul>
+                    <li><a href="https://www.w3schools.com/html/default.asp" class="HTMLbuttons buttons4 b1" >Learn HTML</a></li>
+                    <li><a href="https://www.w3schools.com/videos/index.php" class="HTMLbuttons buttons3 b2" >Video Tutorial</a></li>
+                    <li><a href="https://www.w3schools.com/tags/default.asp" class="HTMLbuttons buttons1 b3">HTML Reference</a></li>
+                    <li><a href="https://campus.w3schools.com/collections/certifications/products/html-certificate" class="HTMLbuttons buttons2 b1">Get Certified</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="spacer layer2"></div>
+
+        <div class="CSSdiv">
+            <div class="divleft">
+                <h1>CSS</h1>
+                <h3>The language for building web pages</h3>
+                <ul>
+                    <li><a href="https://www.w3schools.com/css/default.asp" class="HTMLbuttons buttons4 b21" >Learn CSS</a></li>
+                    <li><a href="https://www.w3schools.com/cssref/default.asp" class="HTMLbuttons buttons1 b22">CSS Reference</a></li>
+                    <li><a href="https://campus.w3schools.com/collections/certifications/products/css-certificate" class="HTMLbuttons buttons2 b1">Get Certified</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="spacer layer3"></div>
+
+        <div class="JSdiv">
+            <div class="divleft">
+                <h1>Javascript</h1>
+                <h3>The language for building web pages</h3>
+                <ul>
+                    <li><a href="https://www.w3schools.com/js/default.asp" class="HTMLbuttons buttons4 b31" style="color: black;">Javascript CSS</a></li>
+                    <li><a href="https://www.w3schools.com/jsref/default.asp" class="HTMLbuttons buttons1 b32" style="color: black;">Javascript Reference</a></li>
+                    <li><a href="https://campus.w3schools.com/collections/certifications/products/js-certificate" class="HTMLbuttons buttons2 b1" style="color: black;">Get Certified</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="reg-form" id="login_form">
+            <div class="form-container">
+                <form action="">
+                    <table>
+                        <tr>
+                            <td>
+                                <div class="input-field">
+                                <label for="fname">First Name</label>
+                                <input type="text" id="fname">
+                            </div>
+                            </td>
+                            <td>
+                                <div class="input-field">
+                                <label for="lname">Last Name</label>
+                                <input type="text" id="lname">
+                            </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <div class="input-field">
+                                <label for="email">Email</label>
+                                <input type="email" id="email">
+                            </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="input-field">
+                                <label for="password">Password</label>
+                                <input type="password">
+                            </div>
+                            </td>
+                            <td>
+                                <div class="input-field">
+                                <label for="conpass">Confirm Password</label>
+                                <input type="password">
+                            </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="input-field">
+                                <label for="gender">Gender</label>
+                                <select name="gender" id="gender">
+                                    <option value="Male">Male</option>
+                                    <option value="Female">Female</option>
+                                    <option value="others">Others</option>
+                                </select>
+                            </div>
+                            </td>
+                            <td>
+                                <div class="input-field">
+                                    <label for="radio">Select your Role</label>
+                                    <div class="radio-btn">
+                                        <input type="radio" name="role" id="student" value="Student">Student
+                                        <input type="radio" name="role" id="teacher" value="Teacher">Teacher
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="input-field">
+                                    <label for="phone">Phone Number</label>
+                                    <input type="number">
+                                </div>
+                            </td>
+                            <td>
+                                <div class="input-field">
+                                    <label for="age">Age</label>
+                                    <input type="number">
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="reg-btn">
+                                 <button type="submit">Register</button>
+                            </td>
+                            <td class="reg-btn">
+                                <span>Already a user? <a href="login.html">Login here!</a></span>
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+        
+    </main>
+</body>
+</html>
